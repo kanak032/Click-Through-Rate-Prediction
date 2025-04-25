@@ -1,6 +1,6 @@
 # Click-Through-Rate-Prediction
 
-This Streamlit app predicts whether a user will click on an ad based on several features provided by the user. The app uses multiple machine learning models, including Logistic Regression, Random Forest, XGBoost, and LightGBM, to make predictions.
+This Streamlit app predicts whether a user will click on an ad based on several features provided by the user. The app uses multiple machine learning models, including Logistic Regression, Random Forest, XGBoost to make predictions.
 
 Features:
 - User Input: Users can input the following features through the sidebar:
@@ -9,7 +9,7 @@ Features:
   - Area Income ($)
   - Daily Internet Usage (minutes)
   
-- Model Selection: Users can select one of four machine learning models (Logistic Regression, Random Forest, XGBoost, or LightGBM) for the prediction.
+- Model Selection: Users can select one of the machine learning models (Logistic Regression, Random Forest, XGBoost) for the prediction.
 
 - Prediction Output: Based on the selected model, the app will predict whether the user is likely to click on the ad or not.
 
@@ -27,7 +27,7 @@ Here is a list of the required libraries:
 - Joblib For loading the pre-trained models.
 - Scikit-learn For logistic regression and scaling.
 - XGBoost For the XGBoost model.
-- LightGBM: For the LightGBM model.
+- LightGBM: For the LightGBM .
 
 Project Structure:-
 
